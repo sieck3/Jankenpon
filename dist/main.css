@@ -1,0 +1,4 @@
+@font-face{font-family:"CaviarDreams";src:url(f747f545ceb183ec7b79.woff2) format("woff2"),url(24f992aa6bcb90dd9b90.woff) format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"LouisGeorgeCafe";src:url(db7f20e4d02db530d14a.woff2) format("woff2"),url(cdafa5187e68c06e6239.woff) format("woff");font-weight:bold;font-style:normal}body{font-family:"LouisGeorgeCafe"}h1{text-align:center}img{height:300px;width:200px}article{display:flex;justify-content:center}article>section{margin:30px}section>img:hover{border-bottom:3px solid red}
+
+
+/*# sourceMappingURL=main.css.map*/
