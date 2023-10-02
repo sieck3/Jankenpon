@@ -27,22 +27,41 @@ h1{
     text-align: center;
 }
 
-img{
-    height: 300px;
-    width: 200px;
-}
-
 article{
     display: flex;
     justify-content: center;
 }
 
+article>section>img{
+    width: 250px;
+
+}
 article>section{
-    /* width: 200px; */
     margin: 30px;
+    
 
 }
 
 section>img:hover{
     border-bottom: 3px solid red;
+}
+
+
+@media only screen and (max-width: 639px) {
+
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    article section{
+        align-content: center;
+        margin: 0 auto;
+     }
+
+        article section img{
+          margin: 0  auto;
+          width: 120px;
+       }
+
 }

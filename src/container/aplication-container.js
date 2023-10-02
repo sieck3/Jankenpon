@@ -26,7 +26,7 @@ class AplicationContainer extends Component {
             <div>
                 <h1>JANKENPON</h1>
               
-                <div>
+             
                     <article >
 
                         <section>
@@ -42,7 +42,7 @@ class AplicationContainer extends Component {
                             <img src="https://cdn.discordapp.com/attachments/957134067034382336/1156412123413487646/TijerasV1.png?ex=651b77b7&is=651a2637&hm=0c8bc1fd479c9d3eb12920dd0260d187f7e381e1e84e2fb7825a89088fc68e5f&" alt="Texto alternativo de la imagen"/>
                         </section>
                     </article>
-                </div>
+         
 
             </div >
         )
