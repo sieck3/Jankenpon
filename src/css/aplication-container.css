@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../css/font/CaviarDreams.woff2') format('woff2'),
+         url('../css/font/CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LouisGeorgeCafe';
+    src: url('../css/font/LouisGeorgeCafe.woff2') format('woff2'),
+         url('../css/font/LouisGeorgeCafe.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body{
+
+    font-family: 'LouisGeorgeCafe';
+    
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+article>section{
+    /* width: 200px; */
+    margin: 30px;
+
+}
+
+section>img:hover{
+    border-bottom: 3px solid red;
+}
